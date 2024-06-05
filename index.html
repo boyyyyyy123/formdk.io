@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký tham dự Hội thảo du học</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <p style="text-align: center;"><img src="./image/du_hoc.jpg" style="width: 100%; height: 60%;"></a></p>
+    <header>
+        <h1 style="text-align: center;">Đăng ký tham dự Hội thảo du học</h1>
+        <h3 style="text-align: center;"><a href="chitiet_hoithaoduhoc.html">Chi tiết hội thảo du học</a></h3>
+    </header>
+    <main>
+        <section>
+            <h2>Thông tin cá nhân</h2>
+            <form>
+                <label for="name">Họ và tên:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Số điện thoại:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </form>
+        </section>
+        <section>
+            <h2>Dự định cá nhân</h2>
+            <form>
+                <label for="nation">Quốc gia bạn đang quan tâm</label>
+                <select id="nation" name="nation" required>
+                    <option value="">Chọn quốc gia</option>
+                    <option value="Japan">Nhật Bản</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UK">Anh</option>
+                </select>
+                <label for="time">Năm dự định du học</label>
+                <select id="time" name="time" required>
+                    <option value="">Chọn năm</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                </select>
+                <label for="date">Ngày tham dự hội thảo</label>
+                <select id="date" name="date" required>
+                    <option value="">Chọn ngày</option>
+                    <option value="">01/06/2024</option>
+                    <option value="">02/06/2024</option>
+                </select>
+                <label for="time">Thời gian tham dự hội thảo</label>
+                <select id="time" name="time" required>
+                    <option value="">Chọn thời gian</option>
+                    <option value="morning">Sáng</option>
+                    <option value="afternoon">Chiều</option>
+                </select>
+            </form>
+        </section>
+        <section>
+            <form>
+                <input type="submit" value="Đăng ký"
+            </form>
+        </section>
+    </main>
+</body>
+</html>
